@@ -1,0 +1,23 @@
+{
+  "name": "format-errors-pg",
+  "version": "1.0.0",
+  "description": "Use this application to protect people from technical details by abstracting Node + PG errors (more specifically the error.stack messages returned from RESTFUL API calls.)",
+  "main": "format-errors-pg.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianARuff/format-errors-pg.git"
+  },
+  "keywords": [
+    "format-errors-pg",
+    "pg-errors",
+    "pg-500-errors",
+    "node-pg-errors",
+    "better-errors-pg"
+  ],
+  "author": "Brian Ruff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianARuff/format-errors-pg/issues"
+  },
+  "homepage": "https://github.com/BrianARuff/format-errors-pg#readme"
+}
