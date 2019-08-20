@@ -88,6 +88,6 @@ As you can see the error message is pretty clear. We are dealing with a user's n
 ---
 
 #### <span style="text-decoration: underline">**Note**</span>
-If you are more experienced with Node + PG and the BE in general then you might be thinking "this is already in the error message". I say yes, it *IS* in the error message. ***However***, this is a message that a front-end developer can easily understand without be scared off by a giant wall of error text. It **removes** the rest of the message which contains all the *file paths* that are stored in the error stack.
+If you are more experienced with Node + PG and the BE in general then you might be thinking "this is already in the error message". I say yes, it *IS* in the error message. ***However***, this is a message that a front-end developer can easily understand without being scared off by a giant wall of error text. It **removes** the rest of the message which contains all the *file paths and other data that would be irrelevant to a FED* that are stored in the error stack.
 
 ---
