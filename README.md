@@ -1,4 +1,8 @@
-# How to install package
+# Purpose of Application
+
+Use this application to protect people from technical details by abstracting Node + PG error messages.
+
+## How to install package
 
 1. Make sure you are CD'd into the same level of your application's package.json file.
 
@@ -6,7 +10,7 @@
 
 ---
 
-## How to use this package
+### How to use this package
 
 1. Require the function from its file in node modules.
 
@@ -49,7 +53,7 @@ It works with **promises** as well if you do not want/can-not use async and awai
 
 ---
 
-### Example output ( in postman )
+#### Example output ( in postman )
 
 Inside of the Postman application I made a *HTTP POST* request to my application's end-point, and it returned the following output:
 
@@ -83,7 +87,7 @@ As you can see the error message is pretty clear. We are dealing with a user's n
 - BED/full-stack/genius-wizard might think error at table `users` at column `email`, and then fill in the rest of it by the other parts of the message.
 ---
 
-### <span style="text-decoration: underline">**Note**</span>
+#### <span style="text-decoration: underline">**Note**</span>
 If you are more experienced with Node + PG and the BE in general then you might be thinking "this is already in the error message". I say yes, it *IS* in the error message. ***However***, this is a message that a front-end developer can easily understand without be scared off by a giant wall of error text. It **removes** the rest of the message which contains all the *file paths* that are stored in the error stack.
 
 ---
